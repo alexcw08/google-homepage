@@ -1,6 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 .logo {
   display: flex;
   justify-content: center;
+  margin-top: 6.85%;
 }
 .logo-image {
   width: auto;
@@ -8,7 +13,53 @@
 .searchbar {
   display: flex;
   justify-content: center;
+  margin: 1.55%;
 }
 .searchbar-bar {
-  width: auto;
+  width: 30%;
+}
+.navbar {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+}
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.navbar-links li {
+  list-style: none;
+  align-items: center;
+}
+.navbar-links li a {
+  text-decoration: none;
+  padding: 2rem;
+  display: block;
+  color: black;
+}
+.footer-container {
+  background: rgb(240, 240, 240);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}
+.footer-links ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.footer-links li {
+  list-style: none;
+  align-items: center;
+  padding: 0px 10px;
+}
+.footer-links li a {
+  text-decoration: none;
+  padding: 2rem;
+  display: block;
+  color: rgb(146, 146, 146);
+  font-size: 15px;
 }
