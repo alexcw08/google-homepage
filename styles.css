@@ -1,0 +1,14 @@
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.logo-image {
+  width: auto;
+}
+.searchbar {
+  display: flex;
+  justify-content: center;
+}
+.searchbar-bar {
+  width: auto;
+}
