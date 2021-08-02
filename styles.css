@@ -63,3 +63,20 @@ body {
   color: rgb(146, 146, 146);
   font-size: 15px;
 }
+.two-buttons {
+  display: flex;
+  justify-content: center;
+}
+.a-button1 {
+  display: flex;
+  margin-right: 5px;
+}
+.a-button2 {
+  display: flex;
+  margin-left: 5px;
+}
+button {
+  background-color: rgb(245, 245, 245);
+  border: none;
+  padding: 10px;
+}
