@@ -1,6 +1,17 @@
 body {
   margin: 0;
   padding: 0;
+  display: block;
+}
+body,
+input,
+button {
+  font-size: 14px;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 .logo {
   display: flex;
@@ -21,22 +32,21 @@ body {
 .navbar {
   display: flex;
   margin: 0;
-  justify-content: center;
-}
-.navbar-links ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-.navbar-links li {
-  list-style: none;
   align-items: center;
+  padding: 6px;
 }
-.navbar-links li a {
-  text-decoration: none;
-  padding: 2rem;
-  display: block;
-  color: black;
+a.tabs:first-of-type {
+  margin-left: 15px;
+}
+a.tabs {
+  display: inline-block;
+  padding: 5px;
+  margin: 0 5px;
+  color: #222;
+}
+.navbar2 {
+  display: inline-block;
+  flex-grow: 1;
 }
 .footer-container {
   background: rgb(240, 240, 240);
@@ -61,7 +71,6 @@ body {
   padding: 2rem;
   display: block;
   color: rgb(146, 146, 146);
-  font-size: 15px;
 }
 .two-buttons {
   display: flex;
